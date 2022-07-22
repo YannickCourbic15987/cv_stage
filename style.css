@@ -654,12 +654,20 @@ margin-right: 40px;
     font-family: var(--FontSytem);
     font-size: 20px;
     color: var(--fontGrayW);
-    margin-bottom: 2rem;
+    margin-bottom: 0.5rem;
     width: 65%;
 
 
 }
 .experience-rennaissance{
+    grid-row: 1;
+    display: flex;
+}
+.experience-tekmicro{
+    grid-row: 1;
+    display: flex;
+}
+.experience-association{
     grid-row: 1;
     display: flex;
 }
@@ -675,11 +683,41 @@ margin-right: 40px;
  
 }
 .formation-progress-rennaissance{
-    height: 95px;
+    height: 170px;
     width: 4px;
     background-color: var(--fontGray)
 }
 .rounded-rennaissance{
+  height: 20px;
+  width: 20px;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  border: 5px solid #656d78;
+}
+.formation-progress-teckmicro{
+    height: 170px;
+    width: 4px;
+    background-color: var(--fontGray)
+}
+.rounded-teckmicro{
+  height: 20px;
+  width: 20px;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  border: 5px solid #656d78;
+}
+.formation-progress-association{
+    height: 170px;
+    width: 4px;
+    background-color: var(--fontGray)
+}
+.rounded-association{
   height: 20px;
   width: 20px;
   border-radius: 50%;
